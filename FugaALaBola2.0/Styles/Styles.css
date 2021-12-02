@@ -1,0 +1,150 @@
+nav{
+    position: fixed;
+    width: 300px;
+    background-color: black;
+    left: 0;
+    height: 100%;
+    text-decoration: none;
+    
+   
+}
+.Menulateral{
+  overflow: scroll;
+  margin: 0;
+  width: 25%;
+  height: 100%;
+  background: rgba( 0, 0, 0, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  align-items: center;
+  text-align: justify;
+  position:fixed;
+
+
+}
+.img-Logo{
+    width: 250px;
+
+}
+.img-Play{
+    width: 20px;
+    height: 20px;
+}
+.subsubMenu{
+   padding-left: 15px; 
+}
+.Encabezado{
+    color:white;
+    background: rgba( 0, 0, 0, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.Menulateral ul {
+    margin: 0;
+    list-style:none;
+    margin-left: 0;
+}
+.hr{
+    color: white;
+}
+.alineacion{
+    text-align: center;
+    
+}
+.ContenedorFlex{
+    display: flex;
+}
+.Parrafo{
+    text-align: justify;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.subMenu{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.Menulateral ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: blanchedalmond;
+    margin-left: 0;
+    
+}
+.Menulateral ul hr{
+  z-index: 30;
+}
+.Bolita{
+    padding-top: 10px;
+    align-items:left;
+    text-align: justify;
+    width: 150px;
+    height: 170px;
+    border-radius: 150px;
+}
+.Esteban{
+    border-radius: 50px;
+}
+.Esteban:hover{
+    opacity: .5;
+}
+.imagenesMiembros{
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.Integrantespre{
+   font-size: 1.5rem;
+   padding: 10px;
+}
+.socialNetworkNav{
+ margin: 10px;
+
+}
+.Contenido{
+ margin: 10px;   
+ text-align: justify;
+ padding-left: 350px; 
+ padding-right: 20px;
+ color: white;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(../microphone-2618102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon{
+    width: 150px;
+    height: 150px;
+
+}
+.Red{
+    width: 50px;
+    height: 50px;
+}
+body::before{
+    content: "";
+    width: 100%;
+    background-repeat: repeat;
+    height: 900%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   background-color: black;
+   z-index: -1;
+   opacity: 0.4;
+}
